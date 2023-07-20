@@ -8,10 +8,7 @@ import { BiSearch } from "react-icons/bi";
 import { FaUserAlt } from "react-icons/fa";
 import Button from "./Button";
 import useAuthModal from "@/hooks/useAuthModal";
-import {
-  useSessionContext,
-  useSupabaseClient,
-} from "@supabase/auth-helpers-react";
+import { useSupabaseClient } from "@supabase/auth-helpers-react";
 import { useUser } from "@/hooks/useUser";
 
 import { toast } from "react-hot-toast";

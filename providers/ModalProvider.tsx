@@ -1,5 +1,6 @@
 "use client";
 import AuthModal from "@/components/AuthModal";
+import UploadModal from "@/components/UploadModal";
 import React, { useEffect, useState } from "react";
 
 // we are essentially checking that non of our modals
@@ -16,6 +17,7 @@ const ModalProvider = () => {
   return (
     <>
       <AuthModal />
+      <UploadModal />
     </>
   );
 };
